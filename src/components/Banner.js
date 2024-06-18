@@ -46,7 +46,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Brandon Shen`}<span className="wrap">{text}</span></h1>
-                        <p>A software and mechancial engineering enthusiast with a dying passion for robotics, aerospace, and machine learning.</p>
+                        <p>A software and mechanical engineering enthusiast with a dying passion for robotics, aerospace, and machine learning.</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
