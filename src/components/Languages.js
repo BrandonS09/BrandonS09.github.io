@@ -14,6 +14,8 @@ import git from "../assets/img/Git_icon.svg.png";
 import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import flask from "../assets/img/flask.png"
+import onshape from "../assets/img/onshape.png";
+import blender from "../assets/img/blender-removebg-preview.png";
 
 export const Languages = () => {
     return (
@@ -77,6 +79,14 @@ export const Languages = () => {
                             <div className="inline-block">
                                 <img src={flask} alt="image" className="lImage"/>
                                 <h5>Flask</h5>
+                            </div>
+                            <div className="inline-block">
+                                <img src={blender} alt="image" className="lImage"/>
+                                <h5>Blender</h5>
+                            </div>
+                            <div className="inline-block">
+                                <img src={onshape} alt="image" className="lImage"/>
+                                <h5>Onshape</h5>
                             </div>
                         </div>
                     </Col>
