@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import colorSharp from "../assets/img/color-sharp.png";
 import BHAC from "../assets/img/BHAC.png";
 import Hammerhead from "../assets/img/199.jpg";
+import foodAmendment from "../assets/img/food amendment.jpg"
 
 export const Projects = () => {
     const responsive = {
@@ -33,7 +34,7 @@ export const Projects = () => {
                             <h2>
                                 Projects
                             </h2>
-                            <p>My Projects</p>
+                            <p>A collection of my more notable projects, my other projects can be found at my <a href="https://github.com/BrandonS09" target="_blank">Github</a></p>
                             <Carousel responsive={responsive} infinite={true} className="project-slider">
                                 <div className="item">
                                     <h3>FRC 199 2024 Robot</h3>
@@ -41,14 +42,19 @@ export const Projects = () => {
                                     <h6 className="projText">Designed and Programmed much of FRC 199's 2024 competitive robot</h6>
                                 </div>
                                 <div className="item">
-                                    <h3>Custom Designed Robotic Arm</h3>
-                                    <img src={projImg3} alt="image" className="projectImage" />
-                                    <h6 className="projText">Designed, Programmed, Fabricated, and Wired an intelligent robotic arm, powered by Arduino</h6>
-                                </div>
-                                <div className="item">
                                     <h3>BHAC</h3>
                                     <img src={BHAC} alt="image" className="projectImage" />
                                     <h6 className="projText">Programmed a desktop application that routinely reminds you to do practices healthy in front of computers. Built with CustomTkinter</h6>
+                                </div>
+                                <div className="item">
+                                    <h3>The Food Amendment</h3>
+                                    <img src={foodAmendment} alt="image" className="projectImage" />
+                                    <h6 className="projText">CruzHacks project which is a website that utilizes AI to generate dietary plans based on your goals. Built with React, OpenAI API, and Firebase</h6>
+                                </div>
+                                <div className="item">
+                                    <h3>Custom Designed Robotic Arm</h3>
+                                    <img src={projImg3} alt="image" className="projectImage" />
+                                    <h6 className="projText">Designed, Programmed, Fabricated, and Wired an intelligent robotic arm, powered by Arduino</h6>
                                 </div>
                             </Carousel>
                         </div>
