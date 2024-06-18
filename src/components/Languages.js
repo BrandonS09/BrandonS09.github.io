@@ -16,6 +16,7 @@ import css from "../assets/img/css.png";
 import flask from "../assets/img/flask.png"
 import onshape from "../assets/img/onshape.png";
 import blender from "../assets/img/blender-removebg-preview.png";
+import wpilib from "../assets/img/wpilib.png";
 
 export const Languages = () => {
     return (
@@ -79,6 +80,10 @@ export const Languages = () => {
                             <div className="inline-block">
                                 <img src={flask} alt="image" className="lImage"/>
                                 <h5>Flask</h5>
+                            </div>
+                            <div className="inline-block">
+                                <img src={wpilib} alt="image" className="lImage"/>
+                                <h5>WPILib</h5>
                             </div>
                             <div className="inline-block">
                                 <img src={blender} alt="image" className="lImage"/>
