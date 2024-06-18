@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/header-img.svg"
+import headerImg from "../assets/img/robotFINAL-removebg-preview_(1)-transformed.png"
 import { useState, useEffect } from 'react'
 
 export const Banner = () => {
