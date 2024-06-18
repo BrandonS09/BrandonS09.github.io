@@ -4,7 +4,8 @@ import Carousel from "react-multi-carousel";
 import colorSharp from "../assets/img/color-sharp.png";
 import BHAC from "../assets/img/BHAC.png";
 import Hammerhead from "../assets/img/199.jpg";
-import foodAmendment from "../assets/img/food amendment.jpg"
+import foodAmendment from "../assets/img/food amendment.jpg";
+import porfolio from "../assets/img/portf.png";
 
 export const Projects = () => {
     const responsive = {
@@ -50,6 +51,11 @@ export const Projects = () => {
                                     <h3>The Food Amendment</h3>
                                     <img src={foodAmendment} alt="image" className="projectImage" />
                                     <h6 className="projText">CruzHacks project which is a website that utilizes AI to generate dietary plans based on your goals. Built with React, OpenAI API, and Firebase</h6>
+                                </div>
+                                <div className="item">
+                                    <h3>Portfolio Website</h3>
+                                    <img src={porfolio} alt="image" className="projectImage" />
+                                    <h6 className="projText">This very website which showcases my skills. Built with React</h6>
                                 </div>
                                 <div className="item">
                                     <h3>Custom Designed Robotic Arm</h3>
