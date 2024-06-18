@@ -17,14 +17,14 @@ import flask from "../assets/img/flask.png"
 
 export const Languages = () => {
     return (
-        <section className="skill" id="skills">
+        <section className="skill" id="languages">
             <Container>
                 <Row>
                     <Col>
                         <div className="lang-bx">
-                            <h2>
+                            <h1>
                                 Languages + Technologies
-                            </h2>
+                            </h1>
                             <p>A list of languages and technologies that I am confortable using</p>
                             <div className="inline-block">
                                 <img src={python} alt="image" className="lImage"/>

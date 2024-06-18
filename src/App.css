@@ -229,6 +229,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.logoText {
+  font-family: "Centra";
+  color: #fff;
+}
 
 /************ Banner Css ************/
 .banner {
@@ -338,6 +342,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+.skillImage {
+  width: 200px;
+  height: 200px;
 }
 /* languages */
 .lang-bx {

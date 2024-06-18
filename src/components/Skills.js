@@ -4,8 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png";
-
+import fullstack from "../assets/img/fullstack.png"
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
@@ -37,27 +36,27 @@ export const Skills = () => {
                             <p>A closer look at my skillset</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="image" />
+                                    <img src={meter1} alt="image" className="skillImage"/>
                                     <h5>Mechanical Design Engineering</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="image" />
+                                    <img src={meter2} alt="image" className="skillImage"/>
                                     <h5>Full Stack Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="image" />
+                                    <img src={meter3} alt="image" className="skillImage"/>
                                     <h5>Mobile App Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="image" />
+                                    <img src={meter2} alt="image" className="skillImage"/>
                                     <h5>Robot Controls Engineering</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="image" />
+                                    <img src={meter1} alt="image" className="skillImage"/>
                                     <h5>Technical Leadership</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="image" />
+                                    <img src={meter3} alt="image" className="skillImage"/>
                                     <h5>3d Printing</h5>
                                 </div>
                             </Carousel>
@@ -65,7 +64,6 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp}/>
         </section>
     )
 }
