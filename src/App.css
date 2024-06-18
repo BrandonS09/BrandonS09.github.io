@@ -307,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-bx {
   background: #151515;
-  border-radius: 64px;
+  border-radius: 64px 64px 0px 0px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
@@ -338,6 +338,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+/* languages */
+.lang-bx {
+  background: #151515;
+  border-radius: 0px 0px 64px 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.inline-block {
+  display: inline-block;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.lImage{
+  width: 100px;
+  height: 105px;
 }
 
 /************ Projects Css ************/
