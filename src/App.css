@@ -503,6 +503,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projectImage {
   width: 400px;
+  max-width: 100%;
+  min-width: 400px;
   height: 300px;
 }
 
