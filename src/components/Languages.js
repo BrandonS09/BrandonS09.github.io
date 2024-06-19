@@ -25,9 +25,9 @@ export const Languages = () => {
                 <Row>
                     <Col>
                         <div className="lang-bx">
-                            <h1>
+                            <h2>
                                 Languages + Technologies
-                            </h1>
+                            </h2>
                             <p>A list of languages and technologies that I am confortable using</p>
                             <div className="inline-block">
                                 <img src={python} alt="image" className="lImage"/>
@@ -86,7 +86,7 @@ export const Languages = () => {
                                 <h5>WPILib</h5>
                             </div>
                             <div className="inline-block">
-                                <img src={firebase} alt="image" className="lImage"/>
+                                <img src={Firebase} alt="image" className="lImage"/>
                                 <h5>Firbase</h5>
                             </div>
                             <div className="inline-block">
