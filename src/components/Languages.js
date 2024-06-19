@@ -15,7 +15,7 @@ import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import flask from "../assets/img/flask.png"
 import onshape from "../assets/img/onshape.png";
-import blender from "../assets/img/blender-removebg-preview.png";
+import Firebase from "../assets/img/Firebase_icon.svg.png";
 import wpilib from "../assets/img/wpilib.png";
 
 export const Languages = () => {
@@ -86,8 +86,8 @@ export const Languages = () => {
                                 <h5>WPILib</h5>
                             </div>
                             <div className="inline-block">
-                                <img src={blender} alt="image" className="lImage"/>
-                                <h5>Blender</h5>
+                                <img src={firebase} alt="image" className="lImage"/>
+                                <h5>Firbase</h5>
                             </div>
                             <div className="inline-block">
                                 <img src={onshape} alt="image" className="lImage"/>
