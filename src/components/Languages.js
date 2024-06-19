@@ -87,7 +87,7 @@ export const Languages = () => {
                             </div>
                             <div className="inline-block">
                                 <img src={Firebase} alt="image" className="lImage"/>
-                                <h5>Firbase</h5>
+                                <h5>Firebase</h5>
                             </div>
                             <div className="inline-block">
                                 <img src={onshape} alt="image" className="lImage"/>
