@@ -1,4 +1,3 @@
-import projImg3 from "../assets/img/project-img3.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -6,6 +5,7 @@ import BHAC from "../assets/img/BHAC.png";
 import Hammerhead from "../assets/img/199.jpg";
 import foodAmendment from "../assets/img/food amendment.jpg";
 import porfolio from "../assets/img/portf.png";
+import arm from "../assets/img/arm.png";
 
 export const Projects = () => {
     const responsive = {
@@ -59,7 +59,7 @@ export const Projects = () => {
                                 </div>
                                 <div className="item">
                                     <h3>Custom Designed Robotic Arm</h3>
-                                    <img src={projImg3} alt="image" className="projectImage" />
+                                    <img src={arm} alt="image" className="projectImage" />
                                     <h6 className="projText">Designed, Programmed, Fabricated, and Wired an intelligent robotic arm, powered by Arduino</h6>
                                 </div>
                             </Carousel>
