@@ -233,7 +233,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-family: "Centra";
   color: #fff;
 }
-
+.connectText{
+  color: #fff;
+  text-decoration: none;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
