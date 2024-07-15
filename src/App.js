@@ -5,6 +5,8 @@ import { Skills } from './components/Skills';
 import { Languages } from './components/Languages';
 import { Projects } from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Skills />
       <Languages />
       <Projects />
+      < Contact />
+      <Footer />
     </div>
   );
 }
