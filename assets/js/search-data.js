@@ -442,7 +442,7 @@ ninja.data = [{
               window.location.href = "/projects/frc2025/";
             },},{id: "projects-motorized-test-track",
           title: 'Motorized Test Track',
-          description: "A fully modular motorized test track used for HIL testing.",
+          description: "Picture omitted due to NDA. A fully modular motorized test track used for HIL testing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/verdant/";
             },},{id: "projects-projeto-1",
