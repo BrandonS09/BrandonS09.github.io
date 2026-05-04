@@ -20,14 +20,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-landing",
-          title: "Landing",
-          description: "",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation menu",
@@ -427,34 +420,59 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "photography-cold-start-2026",
+          title: 'Cold Start 2026',
+          description: "Photography from Cold Start 2026 in San Francisco",
+          section: "",handler: () => {
+              window.location.href = "/photography/cold_start_2026/";
+            },},{id: "photography-redbull-showrun",
+          title: 'Redbull Showrun',
+          description: "Photography from Redbull Showrun events",
+          section: "",handler: () => {
+              window.location.href = "/photography/redbull_showrun/";
+            },},{id: "projects-frc-2024-competition-robot",
+          title: 'FRC 2024 Competition Robot',
+          description: "End Effector Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/frc2024/";
+            },},{id: "projects-frc-2025-competition-robot",
+          title: 'FRC 2025 Competition Robot',
+          description: "Elevator Design",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/frc2025/";
+            },},{id: "projects-motorized-test-track",
+          title: 'Motorized Test Track',
+          description: "A fully modular motorized test track used for HIL testing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/verdant/";
+            },},{id: "projects-projeto-1",
+          title: 'projeto 1',
+          description: "com imagem de fundo",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-projeto-2",
+          title: 'projeto 2',
+          description: "um projeto com imagem de fundo e comentários do giscus",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-projeto-3-com-um-nome-bem-longo",
+          title: 'projeto 3 com um nome bem longo',
+          description: "um projeto que redireciona pra outro website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-projeto-4",
+          title: 'projeto 4',
+          description: "outro sem imagem",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-projeto-5",
+          title: 'projeto 5',
+          description: "um projeto com imagem de fundo",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-projeto-6",
+          title: 'projeto 6',
+          description: "um projeto sem imagem",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",

@@ -469,7 +469,32 @@ ninja.data = [{
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "Novidades",},{id: "projects-projeto-1",
+          section: "Novidades",},{id: "photography-cold-start-2026",
+          title: 'Cold Start 2026',
+          description: "Photography from Cold Start 2026 in San Francisco",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/photography/cold_start_2026/";
+            },},{id: "photography-redbull-showrun",
+          title: 'Redbull Showrun',
+          description: "Photography from Redbull Showrun events",
+          section: "",handler: () => {
+              window.location.href = "/pt-br/photography/redbull_showrun/";
+            },},{id: "projects-frc-2024-competition-robot",
+          title: 'FRC 2024 Competition Robot',
+          description: "End Effector Design",
+          section: "Projetos",handler: () => {
+              window.location.href = "/pt-br/projects/frc2024/";
+            },},{id: "projects-frc-2025-competition-robot",
+          title: 'FRC 2025 Competition Robot',
+          description: "Elevator Design",
+          section: "Projetos",handler: () => {
+              window.location.href = "/pt-br/projects/frc2025/";
+            },},{id: "projects-motorized-test-track",
+          title: 'Motorized Test Track',
+          description: "A fully modular motorized test track used for HIL testing.",
+          section: "Projetos",handler: () => {
+              window.location.href = "/pt-br/projects/verdant/";
+            },},{id: "projects-projeto-1",
           title: 'projeto 1',
           description: "com imagem de fundo",
           section: "Projetos",handler: () => {
