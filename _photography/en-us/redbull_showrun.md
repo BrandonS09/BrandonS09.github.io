@@ -12,10 +12,11 @@ Photography from Redbull Showrun events, capturing the high-energy atmosphere an
 
 <div class="photography-gallery">
   <div class="row">
-    {% assign images = "IMG_1271.jpg,IMG_1291.jpg,IMG_1307.jpg,IMG_1321.jpg,IMG_1465.jpg,IMG_1532.jpg,IMG_1546.jpg,IMG_1553.jpg,IMG_1566.jpg,IMG_1579 (1).jpeg,IMG_1586.jpg" | split: "," %}
+    {% assign images = "IMG_1271.jpg,IMG_1291.jpg,IMG_1307.jpg,IMG_1321.jpg,IMG_1465.jpg,IMG_1532.jpg,IMG_1546.jpg,IMG_1553.jpg,IMG_1566.jpg,IMG_1579_1.jpeg,IMG_1586.jpg" | split: "," %}
     {% for img in images %}
       <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
-        {% include figure.liquid loading="lazy" path="assets/img/rb_showrun_sf/{{ img }}" title="Redbull Showrun" class="img-fluid rounded z-depth-1" %}
+        {% capture img_path %}assets/img/rb_showrun_sf/{{ img }}{% endcapture %}
+        {% include figure.liquid loading="lazy" path=img_path title="Redbull Showrun" class="img-fluid rounded z-depth-1" %}
       </div>
     {% endfor %}
   </div>
