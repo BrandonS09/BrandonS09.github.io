@@ -10,7 +10,7 @@ related_publications: true
 ---
 
 Jun 2025 - Aug 2025
-Designed and built the modular motorized test track at Verdant Robotics, a mechanical and electrical system engineered to carry a  spraybox assembly and pump continously at field operational speeds overhauling their HIL system and integrating into their testing framework for agricultural robotics.
+Designed and built a modular motorized test track at Verdant Robotics, a mechanical and electrical system engineered to carry a spraybox assembly and pump continously at field operational speeds overhauling their HIL system and integrating into their testing framework for agricultural robotics.
 
 ### Engineering Contributions
 * **Modular Track Design:** Engineered a modular segment system allowing the track to be easily lengthened and reconfigured wihtout too much hassle.
