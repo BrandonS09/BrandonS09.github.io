@@ -2,8 +2,8 @@
 page_id: verdant
 layout: page
 title: Motorized Test Track
-description: A fully modular motorized test track used for HIL testing.
-img: assets/img/12.jpg
+description: Picture omitted due to NDA. A fully modular motorized test track used for HIL testing.
+img: 
 importance: 1
 category: verdant_robotics
 related_publications: true

@@ -12,13 +12,13 @@ nav_order: 4
 <div class="photography">
   {% assign sorted_galleries = site.photography | sort: "importance" %}
   <!-- Generate cards for each gallery -->
-  <div class="row row-cols-1 row-cols-md-2">
+  <div class="row row-cols-1">
     {% for gallery in sorted_galleries %}
       <div class="col mb-4">
         <a href="{{ gallery.url | relative_url }}">
           <div class="card hoverable">
             {% if gallery.img %}
-              <img class="card-img-top" src="{{ gallery.img | relative_url }}" alt="{{ gallery.title }}">
+              <img class="card-img-top" src="{{ gallery.img | relative_url }}" alt="{{ gallery.title }}" style="height: 200px; object-fit: cover;">
             {% endif %}
             <div class="card-body">
               <h5 class="card-title">{{ gallery.title }}</h5>

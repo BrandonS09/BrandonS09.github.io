@@ -126,7 +126,7 @@
             </li>
           {% endif %}
           <!-- Toogle language -->
-          {% if site.languages.size >= 2 %}
+          {% if site.enable_language_selector and site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
               {% if site.active_lang == site.languages.first %}
                 {% assign other_language = site.languages.last %}
