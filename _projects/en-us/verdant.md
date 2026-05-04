@@ -2,8 +2,8 @@
 page_id: verdant
 layout: page
 title: Motorized Test Track
-description: Picture omitted due to NDA. A fully modular motorized test track used for HIL testing.
-img: 
+description: A fully modular motorized test track used for HIL testing.
+img: assets/img/verdant/iso.png
 importance: 1
 category: verdant_robotics
 related_publications: true
@@ -19,13 +19,13 @@ Designed and built the modular motorized test track at Verdant Robotics, a mecha
 
 *(Specific technical details and performance metrics are omitted due to Non-Disclosure Agreement)*
 
-<!-- <div class="row">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/renatus_forks.jpg" title="Cascading Elevator Design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/verdant/side.png" title="Test Track Side View" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/renatus_detail.png" title="Servo Grabbing Mechanism" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/verdant/iso.png" title="Test Track Iso" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Isometric view of the cascading telescoping fork assembly. Right: Top-down detail of the servo motor and belt drive actuation for the gripper. -->
+    Left: Side View of the Motorized Test Track Right: Isometric View of the Motorized Test Track

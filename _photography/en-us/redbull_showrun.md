@@ -10,17 +10,13 @@ importance: 2
 
 Photography from Redbull Showrun events, capturing the high-energy atmosphere and precision driving demonstrations.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rb_showrun_sf/IMG_1271.jpg" title="Redbull Showrun - Aerial Action" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rb_showrun_sf/IMG_1291.jpg" title="Redbull Showrun - Crowd Energy" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rb_showrun_sf/IMG_1307.jpg" title="Redbull Showrun - Driver Intensity" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Capturing the thrill and precision of Redbull Showrun: Aerial maneuvers, crowd excitement, and driver focus.
+<div class="photography-gallery">
+  <div class="row">
+    {% assign images = "IMG_1271.jpg,IMG_1291.jpg,IMG_1307.jpg,IMG_1321.jpg,IMG_1465.jpg,IMG_1532.jpg,IMG_1546.jpg,IMG_1553.jpg,IMG_1566.jpg,IMG_1579 (1).jpeg,IMG_1586.jpg" | split: "," %}
+    {% for img in images %}
+      <div class="col-sm-6 col-md-4 col-lg-3 mt-3">
+        {% include figure.liquid loading="lazy" path="assets/img/rb_showrun_sf/{{ img }}" title="Redbull Showrun" class="img-fluid rounded z-depth-1" %}
+      </div>
+    {% endfor %}
+  </div>
 </div>
