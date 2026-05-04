@@ -18,8 +18,9 @@ bibliography:
 blog:
   navigation_title: blog
 categories:
-  fun: fun
-  work: work
+  verdant_robotics: Verdant Robotics
+  frc_199: FRC 199
+  other_projects: Other Projects
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"

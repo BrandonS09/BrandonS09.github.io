@@ -8,14 +8,26 @@ nav: true
 nav_order: 4
 ---
 
-## Photography
+<!-- pages/photography.md -->
+<div class="photography">
+  {% assign sorted_galleries = site.photography | sort: "importance" %}
+  <!-- Generate cards for each gallery -->
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for gallery in sorted_galleries %}
+      <div class="col mb-4">
+        <a href="{{ gallery.url | relative_url }}">
+          <div class="card hoverable">
+            {% if gallery.img %}
+              <img class="card-img-top" src="{{ gallery.img | relative_url }}" alt="{{ gallery.title }}">
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title">{{ gallery.title }}</h5>
+              <p class="card-text">{{ gallery.description }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
-Explore photography work focused on motorsport, events, and visual storytelling.
-
-This page is a place to showcase your best images and recent assignments.
-
-- Motorsports and race day coverage
-- Event photography
-- Technical and mechanical imagery
-
-You can replace this text with gallery embeds, image blocks, or links to portfolio collections.
