@@ -432,17 +432,17 @@ ninja.data = [{
               window.location.href = "/fr-ca/photography/redbull_showrun/";
             },},{id: "projects-frc-2024-competition-robot",
           title: 'FRC 2024 Competition Robot',
-          description: "End Effector Design",
+          description: "End Effector Design and Programming",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/frc2024/";
             },},{id: "projects-frc-2025-competition-robot",
           title: 'FRC 2025 Competition Robot',
-          description: "Elevator Design",
+          description: "Elevator Design and Overall Robot Progrmaming",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/frc2025/";
             },},{id: "projects-motorized-test-track",
           title: 'Motorized Test Track',
-          description: "Picture omitted due to NDA. A fully modular motorized test track used for HIL testing.",
+          description: "A fully modular motorized test track used for HIL testing.",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/verdant/";
             },},{id: "projects-projeto-1",
