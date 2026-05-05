@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my projects.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
@@ -33,6 +33,13 @@ ninja.data = [{
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-activities",
+          title: "Activities",
+          description: "A collection of my extracurricular activities and interests.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/activities/";
           },
         },{id: "nav-photography",
           title: "Photography",
@@ -427,7 +434,7 @@ ninja.data = [{
               window.location.href = "/photography/cold_start_2026/";
             },},{id: "photography-redbull-showrun",
           title: 'Redbull Showrun',
-          description: "Photography from Redbull Showrun events",
+          description: "Photography from Redbull Showrun in San Francisco",
           section: "",handler: () => {
               window.location.href = "/photography/redbull_showrun/";
             },},{id: "projects-frc-2024-competition-robot",
@@ -437,9 +444,14 @@ ninja.data = [{
               window.location.href = "/projects/frc2024/";
             },},{id: "projects-frc-2025-competition-robot",
           title: 'FRC 2025 Competition Robot',
-          description: "Elevator Design and Overall Robot Progrmaming",
+          description: "Elevator Design and Overall Robot Programming",
           section: "Projects",handler: () => {
               window.location.href = "/projects/frc2025/";
+            },},{id: "projects-search-vision",
+          title: 'Search Vision',
+          description: "Open-source platform for end-to-end custom object detection model creation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sv/";
             },},{id: "projects-motorized-test-track",
           title: 'Motorized Test Track',
           description: "A fully modular motorized test track used for HIL testing.",
@@ -491,6 +503,20 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-email',
+        title: 'Send an email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%62%72%61%6E%64%6F%6E%73%68%65%6E%31%32%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/brandonshen09", "_blank");
+        },
+      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
@@ -498,32 +524,18 @@ ninja.data = [{
           window.open("/assets/pdf/en-us//assets/pdf/[LANG]/example_pdf.pdf", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'Send an email',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("https://github.com/BrandonS09", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://instagram.com/_brandon.s__", "_blank");
         },
       },{
         id: 'social-custom_social',
