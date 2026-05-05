@@ -6,7 +6,6 @@ description: Open-source platform for end-to-end custom object detection model c
 img: assets/img/sv/sv.png
 importance: 1
 category: other_projects
-giscus_comments: true
 ---
 Sept 2024 - Present
 

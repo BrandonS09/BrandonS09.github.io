@@ -6,7 +6,6 @@ description: um projeto com imagem de fundo e comentários do giscus
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
