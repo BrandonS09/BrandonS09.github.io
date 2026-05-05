@@ -587,13 +587,6 @@ ninja.data = [{
           window.open("https://instagram.com/_brandon.s__", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Redes sociais',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
           id: 'lang-en-us',
           title: 'en-us',
           section: 'Idiomas',
