@@ -10,7 +10,7 @@ importance: 2
   <div class="row">
     {% assign images = "IMG_1271.jpg,IMG_1291.jpg,IMG_1307.jpg,IMG_1321.jpg,IMG_1465.jpg,IMG_1532.jpg,IMG_1546.jpg,IMG_1553.jpg,IMG_1566.jpg,IMG_1586.jpg" | split: "," %}
     {% for img in images %}
-      <div class="col-12 col-md-6 col-lg-6 mt-4">
+      <div class="col-12 col-md-6 col-lg-12 mt-4">
         {% capture img_path %}assets/img/rb_showrun_sf/{{ img }}{% endcapture %}
         {% include figure.liquid loading="lazy" path=img_path title="Redbull Showrun" class="img-fluid rounded z-depth-1" %}
       </div>
