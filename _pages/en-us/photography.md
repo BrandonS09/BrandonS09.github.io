@@ -5,7 +5,7 @@ title: Photography
 permalink: /photography/
 description: A gallery of photography and motorsport work.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <!-- pages/photography.md -->
@@ -18,7 +18,7 @@ nav_order: 4
         <a href="{{ gallery.url | relative_url }}">
           <div class="card hoverable">
             {% if gallery.img %}
-              <img class="card-img-top" src="{{ gallery.img | relative_url }}" alt="{{ gallery.title }}" style="height: 200px; object-fit: cover;">
+              <img class="card-img-top" src="{{ gallery.img | relative_url }}" alt="{{ gallery.title }}" style="height: 300px; object-fit: cover;">
             {% endif %}
             <div class="card-body">
               <h5 class="card-title">{{ gallery.title }}</h5>

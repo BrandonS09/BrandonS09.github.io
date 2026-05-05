@@ -18,10 +18,8 @@ social: true # includes social icons at the bottom of the page
 
 I build systems that work across the full stack, from mechanical design and electrical integration to software and computer vision.
 
-I am currently pursuing research collaborations in robotics and human-computer interaction while developing independent engineering projects. 
+I am currently a research assistant at Stanford University's [SHAPE Lab](https://shape.stanford.edu/), developing hardware concepts for haptic sports visualization for blind and low-vision users.
 
-Previously, I designed and built the modular motorized test track at [Verdant Robotics](https://www.verdantrobotics.com/). I have also contributed to open source projects including [Mattermost](https://mattermost.com/) and [WPILib](https://wpilib.org/).
+Previously, I designed and built the modular motorized test track at [Verdant Robotics](https://www.verdantrobotics.com/). I have also contributed to open source projects including [Mattermost](https://mattermost.com/) and [WPILib](https://wpilib.org/), and my research on quantum neural network architectures is currently under peer review for publication.
 
-My research on quantum neural network architectures is currently under peer review for publication.
-
-Outside of engineering, I photograph motorsport, most recently at the Cold Start 2026 in San Francisco.
+Outside of engineering, I am a former competitive wushu athlete and pianist, and currently a motorsport photographer, most recently I shot at Cold Start 2026 in San Francisco.
