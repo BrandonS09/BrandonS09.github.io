@@ -4,7 +4,7 @@ layout: page
 title: Activities
 permalink: /activities/
 description: A collection of my extracurricular activities and interests.
-nav: true
+nav: false
 nav_order: 4
 ---
 

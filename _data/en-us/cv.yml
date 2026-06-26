@@ -33,7 +33,9 @@
       institution: SHAPE Lab, Stanford University
       year: May 2026 - Present
       description:
-        - TBD
+        - Developing holonomic haptic micro-robots for a sports accessibility project
+        - Designing the smallest to-be-open-sourced holonomic haptic micro robot to date, with a 3D printed chassis and 3D printed omnidirectional wheels
+        - Developed custom PCBs for motor control and wireless communication, establishing a master slave system for precise control of the robot's movement and haptic feedback
 
     - title: Chief Technology Officer/Co-Captain
       institution: FRC Team 199, Carlmont High School
