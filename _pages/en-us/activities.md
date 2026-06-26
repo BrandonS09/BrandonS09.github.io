@@ -1,14 +1,12 @@
 ---
-page_id: activities
+page_id: Activities
 layout: page
 permalink: /activities/
-title: activities
+title: Activities
 description: Activities and contributions.
 nav: true
 nav_order: 5
 ---
-
-
 ## Open source contributor
 
 ### WPILib 
