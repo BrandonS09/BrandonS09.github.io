@@ -98,9 +98,9 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Haptics and Human Computer Interaction
+    - title: Human Computer Interaction
       items:
-        - TBD
+        - Touch2Learn: A SWARM control haptic system for sports accessibility, education, and viewing.
 
 - title: Other Interests
   type: list

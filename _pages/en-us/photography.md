@@ -5,7 +5,7 @@ title: Photography
 permalink: /photography/
 description: A gallery of photography and motorsport work.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <!-- pages/photography.md -->
