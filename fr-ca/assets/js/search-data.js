@@ -42,7 +42,7 @@ ninja.data = [{
             window.location.href = "/fr-ca/photography/";
           },
         },{id: "nav-activities",
-          title: "activities",
+          title: "Activities",
           description: "Activities and contributions.",
           section: "",
           handler: () => {

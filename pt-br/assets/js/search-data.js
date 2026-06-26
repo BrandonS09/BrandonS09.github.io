@@ -56,7 +56,7 @@ ninja.data = [{
             window.location.href = "/pt-br/repositories/";
           },
         },{id: "nav-activities",
-          title: "activities",
+          title: "Activities",
           description: "Activities and contributions.",
           section: "",
           handler: () => {
