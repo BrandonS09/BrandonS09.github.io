@@ -34,13 +34,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-activities",
-          title: "Activities",
-          description: "A collection of my extracurricular activities and interests.",
-          section: "Navigation menu",
-          handler: () => {
-            window.location.href = "/activities/";
-          },
         },{id: "nav-photography",
           title: "Photography",
           description: "A gallery of photography and motorsport work.",
