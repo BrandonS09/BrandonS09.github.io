@@ -55,6 +55,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pt-br/repositories/";
           },
+        },{id: "nav-activities",
+          title: "activities",
+          description: "Activities and contributions.",
+          section: "Menu de navegação",
+          handler: () => {
+            window.location.href = "/pt-br/activities/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
