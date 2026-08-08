@@ -83,26 +83,26 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Engineering & CAD
+    - title: Hardware & Mechanical Design
       items: 
         - Fusion 360, Onshape
         - CAM & CNC Milling
         - Mechanism Design, Rapid Prototyping 
         - DFM/DFA Principles, GD&T, Design Review Processes
-    - title: Robotics & Code
+        - Custom PCB design, RF Antenna Matching, Power Architecture, Microcontroller Integration, Sensor Integration
+    - title: Software & Controls
       items: 
         - Python (OpenCV, NumPy, Matplotlib, Pytorch)
-        - C++, Java, JavaScript, C#, MATLAB,
-        - ROS, PID Control, Sensor Integration
-        - System Architecture, Cross-Functional Coordination
+        - C++, Java, JavaScript, C#, MATLAB, C
+        - ROS, PID Control, Embedded Systems, Microcontroller Programming
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Human Computer Interaction
       items:
-        - Touch2Learn: A SWARM control haptic system for sports accessibility, education, and viewing.
-    - title: Quantum Machine Learning
+        - "Touch2Learn: A SWARM control haptic system for sports accessibility, education, and viewing.
+    - title: Quantum Machine Learning"
       items:
         - "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies — [DOI](https://doi.org/10.64336/001c.166201)"
 
