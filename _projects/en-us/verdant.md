@@ -6,7 +6,7 @@ description: A fully modular motorized test track used for HIL testing.
 img: assets/img/verdant/iso.png
 importance: 1
 category: verdant_robotics
-related_publications: true
+related_publications: false
 ---
 
 Jun 2025 - Aug 2025
