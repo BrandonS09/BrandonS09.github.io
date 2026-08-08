@@ -181,6 +181,13 @@ ninja.data = [{
           window.open("https://instagram.com/_brandon.s__", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: '',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=c-_K4qUAAAAJ", "_blank");
+        },
+      },{
           id: 'lang-en-us',
           title: 'en-us',
           section: '',
