@@ -35,7 +35,6 @@
       description:
         - Designed and prototyped a fleet of haptic micro-robots (28mm omnidirectional undercarts with magnetically-coupled tokens) for a CHI 2027 sports education interface, validating mechanical drive train and coupling design through iterative SLA/FDM fabrication
         - Engineered the complete electrical system in KiCad for two custom wireless PCBs per robot (nRF52832 MCU/radio, motor drivers, optical localization, capacitive touch, and haptic feedback), including RF antenna matching and power architecture for battery operation
-        - Diagnosed and resolved a critical drive-train failure by isolating root cause to axle rigidity rather than surface friction, avoiding an unnecessary design pivot and accelerating the prototyping timeline
         - Developed the fleet coordination system (fixed-ID pairing, Raspberry Pi host, radio protocol) supporting 4–5 simultaneously operating robots with real-time localization and collision avoidance
 
 
@@ -103,6 +102,9 @@
     - title: Human Computer Interaction
       items:
         - Touch2Learn: A SWARM control haptic system for sports accessibility, education, and viewing.
+    - title: Quantum Machine Learning
+      items:
+        - "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies — [DOI](https://doi.org/10.64336/001c.166201)"
 
 - title: Other Interests
   type: list

@@ -24,4 +24,4 @@ A whitepaper documenting SearchVision's architecture and methodology is publicly
 
 ### Links
 * [GitHub Repository](https://github.com/BrandonS09/SearchVision)
-* [Whitepaper](https://github.com/Brandon-Shen/SearchVision/blob/main/SearchVision__Human_in_the_Loop_Object_Detection_Dataset_Generation_from_Web_Images%20(1).pdf)
+* [Whitepaper](https://github.com/Brandon-Shen/SearchVision/blob/main/SearchVision__Human_in_the_Loop_Object_Detection_Dataset_Generation_from_Web_Images.pdf)

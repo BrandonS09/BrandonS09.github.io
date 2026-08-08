@@ -26,6 +26,7 @@ nav_order: 5
 ### Quantum Neural Network Independent Research
 
 - Dates: Nov 2025 — Present
-- Review paper: "Ansatz Design for Mitigating Barren Plateaus in Few-Qubit QNN: An Efficiency-Driven Approach" — currently under journal review.
+- Status: published in peer-reviewed journals.
+- Paper: "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies" — [DOI](https://doi.org/10.64336/001c.166201)
 
 
