@@ -48,29 +48,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/fr-ca/activities/";
           },
-        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "photography-cold-start-2026",
+        },{id: "photography-cold-start-2026",
           title: 'Cold Start 2026',
           description: "Photography from Cold Start 2026 in San Francisco",
           section: "",handler: () => {
@@ -146,48 +124,6 @@ ninja.data = [{
           section: "",handler: () => {
               window.location.href = "/fr-ca/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: '',
-        section: '',
-        handler: () => {
-          window.open("mailto:%62%72%61%6E%64%6F%6E%73%68%65%6E%31%32%33@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: '',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/brandonshen09", "_blank");
-        },
-      },{
-        id: 'social-cv',
-        title: 'CV',
-        section: '',
-        handler: () => {
-          window.open("/assets/pdf/fr-ca//assets/pdf/[LANG]/Brandon_Shen_CV.pdf", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: '',
-        handler: () => {
-          window.open("https://github.com/BrandonS09", "_blank");
-        },
-      },{
-        id: 'social-instagram',
-        title: 'Instagram',
-        section: '',
-        handler: () => {
-          window.open("https://instagram.com/_brandon.s__", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: '',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=c-_K4qUAAAAJ", "_blank");
-        },
-      },{
           id: 'lang-en-us',
           title: 'en-us',
           section: '',
