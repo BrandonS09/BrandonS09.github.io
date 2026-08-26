@@ -1,7 +1,11 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-26'
 papers:
-  c-_K4qUAAAAJ:u5HHmVD_uO8C:
+  c-_K4qUAAAAJ:u-x6o8ySG0sC:
     citations: 0
+    title: Factorial Benchmarking of Exact and Finite-Shot Gradient Resolvability in a Four-Qubit Hybrid Quantum Neural Network
+    year: '2026'
+  c-_K4qUAAAAJ:u5HHmVD_uO8C:
+    citations: 1
     title: 'Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies'
     year: '2026'
