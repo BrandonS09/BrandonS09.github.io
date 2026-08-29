@@ -73,6 +73,11 @@ ninja.data = [{
           description: "Open-source platform for end-to-end custom object detection model creation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sv/";
+            },},{id: "projects-touch2learn",
+          title: 'Touch2Learn',
+          description: "Custom Toio-based tactile learning robot for accessible basketball replay communication.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/touch2learn/";
             },},{id: "projects-motorized-test-track",
           title: 'Motorized Test Track',
           description: "A fully modular motorized test track used for HIL testing.",
