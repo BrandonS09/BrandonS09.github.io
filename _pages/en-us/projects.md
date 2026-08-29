@@ -6,7 +6,7 @@ permalink: /projects/
 description: A growing collection of my projects.
 nav: true
 nav_order: 2
-display_categories: [verdant_robotics, frc_199, shape_lab, other_projects]
+display_categories: [shape_lab, verdant_robotics, frc_199, other_projects]
 horizontal: false
 ---
 
