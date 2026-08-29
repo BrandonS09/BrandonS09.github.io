@@ -27,6 +27,7 @@ nav_order: 5
 
 - Dates: Nov 2025 — Present
 - Status: published in peer-reviewed journals.
+- Paper: "Factorial Benchmarking of Exact and Finite-Shot Gradient Resolvability in a Four-Qubit Hybrid Quantum Neural Network" — [DOI](https://doi.org/10.21203/rs.3.rs-10646614/v1)
 - Paper: "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies" — [DOI](https://doi.org/10.64336/001c.166201)
 
 

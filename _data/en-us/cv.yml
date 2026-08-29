@@ -33,9 +33,9 @@
       institution: SHAPE Lab, Stanford University
       year: May 2026 - Present
       description:
-        - Designed and prototyped a fleet of haptic micro-robots (28mm omnidirectional undercarts with magnetically-coupled tokens) for a CHI 2027 sports education interface, validating mechanical drive train and coupling design through iterative SLA/FDM fabrication
-        - Engineered the complete electrical system in KiCad for two custom wireless PCBs per robot (nRF52832 MCU/radio, motor drivers, optical localization, capacitive touch, and haptic feedback), including RF antenna matching and power architecture for battery operation
-        - Developed the fleet coordination system (fixed-ID pairing, Raspberry Pi host, radio protocol) supporting 4–5 simultaneously operating robots with real-time localization and collision avoidance
+        - Developed Touch2Learn, a custom modification of Sony's Toio tangible robot platform featuring a redesigned hot-swappable side attachment system and improved electrical pin connection reliability based on the HERMIT architecture, extending the platform for accessible spatial communication of basketball play replays to blind and low-vision users
+        - Independently designed and built a fleet of haptic tabletop micro-robots targeting UIST publication, encompassing full mechanical design of 30mm omnidirectional chassis, dual custom PCBs per robot (nRF52832, Nordic ESB radio, optical localization via PMW3360, vibrotactile haptics via DRV2605L), and bare-metal embedded firmware in C on the nRF5 SDK
+        - Iterated through extensive physical prototyping to validate core mechanical unknowns, including SLA-printed omnidirectional wheel geometry at 30mm scale, magnetic coupling strength through a Delrin panel, and 90° worm gearbox torque transmission, diagnosing and resolving failure modes such as axle-induced roller binding misattributed to surface friction, and antenna RF path shorts traced through systematic electrical bring-up of custom PCBs
 
 
     - title: Chief Technology Officer/Co-Captain
@@ -101,9 +101,10 @@
   contents:
     - title: Human Computer Interaction
       items:
-        - "Touch2Learn: A SWARM control haptic system for sports accessibility, education, and viewing."
+        - "Touch2Learn"
     - title: Quantum Machine Learning
       items:
+        - "Factorial Benchmarking of Exact and Finite-Shot Gradient Resolvability in a Four-Qubit Hybrid Quantum Neural Network — [DOI](https://doi.org/10.21203/rs.3.rs-10646614/v1)"
         - "Gradient usability in few-qubit quantum Neural Networks: A signal-to-noise ratio framework for evaluating mitigation strategies — [DOI](https://doi.org/10.64336/001c.166201)"
 
 - title: Other Interests
