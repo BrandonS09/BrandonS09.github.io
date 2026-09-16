@@ -3,7 +3,7 @@ layout: page
 title: IndyCar Mission Food Grand Prix of Monterey
 description: Photography from the IndyCar Mission Food Grand Prix of Monterey at Laguna Seca
 img: assets/img/indylagunaseca2026/IMG_6311.jpg
-importance: 3
+importance: 0
 ---
 
 <div class="photography-gallery">
