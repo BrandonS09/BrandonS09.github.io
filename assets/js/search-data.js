@@ -53,6 +53,11 @@ ninja.data = [{
           description: "Photography from Cold Start 2026 in San Francisco",
           section: "",handler: () => {
               window.location.href = "/photography/cold_start_2026/";
+            },},{id: "photography-indycar-mission-food-grand-prix-of-monterey",
+          title: 'IndyCar Mission Food Grand Prix of Monterey',
+          description: "Photography from the IndyCar Mission Food Grand Prix of Monterey at Laguna Seca",
+          section: "",handler: () => {
+              window.location.href = "/photography/indycar_mission_food_gp_monterey_2026/";
             },},{id: "photography-redbull-showrun",
           title: 'Redbull Showrun',
           description: "Photography from Redbull Showrun in San Francisco",
